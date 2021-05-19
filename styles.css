@@ -1,4 +1,6 @@
-
+body {
+    font-family: Arial, sans-serif;
+}
 
 #glogo {
     display: block;
@@ -88,6 +90,8 @@
     padding: 5px;
     margin: 0 5px;
     font-size: 15px;
+    text-decoration: none;
+
 }
 
 #store {
@@ -101,6 +105,8 @@
     padding: 5px;
     margin: 0 5px;
     font-size: 15px;
+    text-decoration: none;
+
 }
 
 #gmail {
@@ -114,6 +120,8 @@
     padding: 5px;
     margin: 0 5px;
     font-size: 13px;
+    text-decoration: none;
+
 }
 
 #images {
@@ -128,54 +136,113 @@
     padding-right: 100px;
     margin: 0 5px;
     font-size: 13px;
+    text-decoration: none;
+
 }
 
 #footer {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: stretch;
+        background-color: #dadce0;
+
 }
 
-
-
-
-
-
-/*
-
-#about {
-    position: absolute;
-    font-size: 15px;
-    padding: 5px;
+#advertising {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 15px;
     margin: 0 5px;
-    color: #222;
-}
-
-#about:visited {
-    color: #222;
-}
-
-#about:hover {
-    color: #222;
-
-}
-
-#store {
-    margin-left: 50px;
     font-size: 15px;
+    white-space: nowrap;
+    padding-left: 50px;
+}
+
+#advertising a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+#business {
+    display: block;
     color: #222;
+    text-align: center;
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 15px;
+    white-space: nowrap;
 }
 
-#gmail {
-    position: static;
-    margin-left: 500px;
-    font-size: 12px;
+#business a {
+    text-decoration: none;
+    color: #70757a;
 }
 
-#images {
-    padding-left: 10px;
-    font-size: 12px;
-} 
+#searchworks {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 15px;
+    white-space: nowrap;
+}
 
-/*
+#searchworks a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+#privacy {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+#privacy a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+#terms {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+#terms a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+#settings {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+#settings a {
+    text-decoration: none;
+    color: #70757a;
+}
